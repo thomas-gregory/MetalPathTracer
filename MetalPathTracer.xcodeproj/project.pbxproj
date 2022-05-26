@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A1529A283FDEB1004A2555 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A15299283FDEB1004A2555 /* AppDelegate.m */; };
+		15A1529D283FDEB1004A2555 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A1529C283FDEB1004A2555 /* ViewController.m */; };
+		15A1529F283FDEB2004A2555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A1529E283FDEB2004A2555 /* Assets.xcassets */; };
+		15A152A2283FDEB3004A2555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A152A0283FDEB3004A2555 /* Main.storyboard */; };
+		15A152A4283FDEB3004A2555 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A152A3283FDEB3004A2555 /* main.m */; };
+		15A152AF283FDEB3004A2555 /* MetalPathTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A152AE283FDEB3004A2555 /* MetalPathTracerTests.m */; };
+		15A152B9283FDEB3004A2555 /* MetalPathTracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A152B8283FDEB3004A2555 /* MetalPathTracerUITests.m */; };
+		15A152BB283FDEB3004A2555 /* MetalPathTracerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A152BA283FDEB3004A2555 /* MetalPathTracerUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A152AB283FDEB3004A2555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A1528D283FDEB1004A2555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A15294283FDEB1004A2555;
+			remoteInfo = MetalPathTracer;
+		};
+		15A152B5283FDEB3004A2555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A1528D283FDEB1004A2555 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A15294283FDEB1004A2555;
+			remoteInfo = MetalPathTracer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A15295283FDEB1004A2555 /* MetalPathTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalPathTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A15298283FDEB1004A2555 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15A15299283FDEB1004A2555 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15A1529B283FDEB1004A2555 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15A1529C283FDEB1004A2555 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15A1529E283FDEB2004A2555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A152A1283FDEB3004A2555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A152A3283FDEB3004A2555 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15A152A5283FDEB3004A2555 /* MetalPathTracer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalPathTracer.entitlements; sourceTree = "<group>"; };
+		15A152AA283FDEB3004A2555 /* MetalPathTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPathTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A152AE283FDEB3004A2555 /* MetalPathTracerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalPathTracerTests.m; sourceTree = "<group>"; };
+		15A152B4283FDEB3004A2555 /* MetalPathTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPathTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A152B8283FDEB3004A2555 /* MetalPathTracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalPathTracerUITests.m; sourceTree = "<group>"; };
+		15A152BA283FDEB3004A2555 /* MetalPathTracerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalPathTracerUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A15292283FDEB1004A2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152A7283FDEB3004A2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152B1283FDEB3004A2555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A1528C283FDEB1004A2555 = {
+			isa = PBXGroup;
+			children = (
+				15A15297283FDEB1004A2555 /* MetalPathTracer */,
+				15A152AD283FDEB3004A2555 /* MetalPathTracerTests */,
+				15A152B7283FDEB3004A2555 /* MetalPathTracerUITests */,
+				15A15296283FDEB1004A2555 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15A15296283FDEB1004A2555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A15295283FDEB1004A2555 /* MetalPathTracer.app */,
+				15A152AA283FDEB3004A2555 /* MetalPathTracerTests.xctest */,
+				15A152B4283FDEB3004A2555 /* MetalPathTracerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A15297283FDEB1004A2555 /* MetalPathTracer */ = {
+			isa = PBXGroup;
+			children = (
+				15A15298283FDEB1004A2555 /* AppDelegate.h */,
+				15A15299283FDEB1004A2555 /* AppDelegate.m */,
+				15A1529B283FDEB1004A2555 /* ViewController.h */,
+				15A1529C283FDEB1004A2555 /* ViewController.m */,
+				15A1529E283FDEB2004A2555 /* Assets.xcassets */,
+				15A152A0283FDEB3004A2555 /* Main.storyboard */,
+				15A152A3283FDEB3004A2555 /* main.m */,
+				15A152A5283FDEB3004A2555 /* MetalPathTracer.entitlements */,
+			);
+			path = MetalPathTracer;
+			sourceTree = "<group>";
+		};
+		15A152AD283FDEB3004A2555 /* MetalPathTracerTests */ = {
+			isa = PBXGroup;
+			children = (
+				15A152AE283FDEB3004A2555 /* MetalPathTracerTests.m */,
+			);
+			path = MetalPathTracerTests;
+			sourceTree = "<group>";
+		};
+		15A152B7283FDEB3004A2555 /* MetalPathTracerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15A152B8283FDEB3004A2555 /* MetalPathTracerUITests.m */,
+				15A152BA283FDEB3004A2555 /* MetalPathTracerUITestsLaunchTests.m */,
+			);
+			path = MetalPathTracerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A15294283FDEB1004A2555 /* MetalPathTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A152BE283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracer" */;
+			buildPhases = (
+				15A15291283FDEB1004A2555 /* Sources */,
+				15A15292283FDEB1004A2555 /* Frameworks */,
+				15A15293283FDEB1004A2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalPathTracer;
+			productName = MetalPathTracer;
+			productReference = 15A15295283FDEB1004A2555 /* MetalPathTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15A152A9283FDEB3004A2555 /* MetalPathTracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A152C1283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracerTests" */;
+			buildPhases = (
+				15A152A6283FDEB3004A2555 /* Sources */,
+				15A152A7283FDEB3004A2555 /* Frameworks */,
+				15A152A8283FDEB3004A2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A152AC283FDEB3004A2555 /* PBXTargetDependency */,
+			);
+			name = MetalPathTracerTests;
+			productName = MetalPathTracerTests;
+			productReference = 15A152AA283FDEB3004A2555 /* MetalPathTracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15A152B3283FDEB3004A2555 /* MetalPathTracerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A152C4283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracerUITests" */;
+			buildPhases = (
+				15A152B0283FDEB3004A2555 /* Sources */,
+				15A152B1283FDEB3004A2555 /* Frameworks */,
+				15A152B2283FDEB3004A2555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A152B6283FDEB3004A2555 /* PBXTargetDependency */,
+			);
+			name = MetalPathTracerUITests;
+			productName = MetalPathTracerUITests;
+			productReference = 15A152B4283FDEB3004A2555 /* MetalPathTracerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A1528D283FDEB1004A2555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					15A15294283FDEB1004A2555 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					15A152A9283FDEB3004A2555 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 15A15294283FDEB1004A2555;
+					};
+					15A152B3283FDEB3004A2555 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 15A15294283FDEB1004A2555;
+					};
+				};
+			};
+			buildConfigurationList = 15A15290283FDEB1004A2555 /* Build configuration list for PBXProject "MetalPathTracer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A1528C283FDEB1004A2555;
+			productRefGroup = 15A15296283FDEB1004A2555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A15294283FDEB1004A2555 /* MetalPathTracer */,
+				15A152A9283FDEB3004A2555 /* MetalPathTracerTests */,
+				15A152B3283FDEB3004A2555 /* MetalPathTracerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A15293283FDEB1004A2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A1529F283FDEB2004A2555 /* Assets.xcassets in Resources */,
+				15A152A2283FDEB3004A2555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152A8283FDEB3004A2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152B2283FDEB3004A2555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A15291283FDEB1004A2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A1529D283FDEB1004A2555 /* ViewController.m in Sources */,
+				15A152A4283FDEB3004A2555 /* main.m in Sources */,
+				15A1529A283FDEB1004A2555 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152A6283FDEB3004A2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A152AF283FDEB3004A2555 /* MetalPathTracerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A152B0283FDEB3004A2555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A152BB283FDEB3004A2555 /* MetalPathTracerUITestsLaunchTests.m in Sources */,
+				15A152B9283FDEB3004A2555 /* MetalPathTracerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A152AC283FDEB3004A2555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A15294283FDEB1004A2555 /* MetalPathTracer */;
+			targetProxy = 15A152AB283FDEB3004A2555 /* PBXContainerItemProxy */;
+		};
+		15A152B6283FDEB3004A2555 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A15294283FDEB1004A2555 /* MetalPathTracer */;
+			targetProxy = 15A152B5283FDEB3004A2555 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15A152A0283FDEB3004A2555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A152A1283FDEB3004A2555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A152BC283FDEB3004A2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15A152BD283FDEB3004A2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15A152BF283FDEB3004A2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalPathTracer/MetalPathTracer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		15A152C0283FDEB3004A2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalPathTracer/MetalPathTracer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		15A152C2283FDEB3004A2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalPathTracer.app/Contents/MacOS/MetalPathTracer";
+			};
+			name = Debug;
+		};
+		15A152C3283FDEB3004A2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalPathTracer.app/Contents/MacOS/MetalPathTracer";
+			};
+			name = Release;
+		};
+		15A152C5283FDEB3004A2555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalPathTracer;
+			};
+			name = Debug;
+		};
+		15A152C6283FDEB3004A2555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZLQCJQ2X8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thomas-gregory.MetalPathTracerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = MetalPathTracer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A15290283FDEB1004A2555 /* Build configuration list for PBXProject "MetalPathTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A152BC283FDEB3004A2555 /* Debug */,
+				15A152BD283FDEB3004A2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A152BE283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A152BF283FDEB3004A2555 /* Debug */,
+				15A152C0283FDEB3004A2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A152C1283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A152C2283FDEB3004A2555 /* Debug */,
+				15A152C3283FDEB3004A2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A152C4283FDEB3004A2555 /* Build configuration list for PBXNativeTarget "MetalPathTracerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A152C5283FDEB3004A2555 /* Debug */,
+				15A152C6283FDEB3004A2555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A1528D283FDEB1004A2555 /* Project object */;
+}
